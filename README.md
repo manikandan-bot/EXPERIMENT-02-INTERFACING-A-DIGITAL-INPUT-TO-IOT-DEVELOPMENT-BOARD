@@ -3,11 +3,11 @@
 
 **DATE:**
 
-**NAME:**
+**NAME:*MANIKANDAN T*
 
-**ROLL NO:**
+**ROLL NO:*212224110037*
 
-**DEPARTMENT:**
+**DEPARTMENT:*B.E CSE(IOT)*
 
 ## Aim
 
@@ -40,61 +40,66 @@ IR technology is used in a wide range of wireless applications which includes re
 
 1. Click on STM 32 CUBE IDE, the following screen will appear
    
- ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
-
+<img width="1060" height="607" alt="image" src="https://github.com/user-attachments/assets/7c293d1b-edcb-401f-9492-17b0f19dc12b" />
 
 2. Click on FILE, click on new stm 32 project
 
-![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
+<img width="1055" height="612" alt="image" src="https://github.com/user-attachments/assets/8d385242-3d34-4e00-b476-d3457f851318" />
 
-![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
+<img width="1055" height="650" alt="image" src="https://github.com/user-attachments/assets/4b3c6e34-f953-4323-a55d-10cd56aee8eb" />
+
 
 3. Select the target to be programmed as shown below and click on next
 
-![Screenshot 2025-03-11 134231](https://github.com/user-attachments/assets/09e61f3d-224f-4ca8-96d4-7336869df5c7)
+<img width="1047" height="635" alt="image" src="https://github.com/user-attachments/assets/34115a47-2a50-4505-a2ff-244050504c2c" />
+
 
 4. Select the program name
 
-![image](https://user-images.githubusercontent.com/36288975/226189316-09832a30-4d1a-4d4f-b8ad-2dc28f137711.png)
+<img width="617" height="692" alt="image" src="https://github.com/user-attachments/assets/3a8b9011-8c0a-417c-8e38-7a62e8c297d5" />
 
 5. Corresponding ioc file will be generated automatically
 
-![Screenshot 2025-03-11 134528](https://github.com/user-attachments/assets/df427edd-e24a-4612-a858-aeae859b379f)
+<img width="1067" height="642" alt="image" src="https://github.com/user-attachments/assets/aa4096c3-7edd-4cf2-be0b-851b57473a32" />
+
 
 
 6. Select the appropriate pins as GPIO, in or out, USART or required options and configure
+<img width="1060" height="612" alt="image" src="https://github.com/user-attachments/assets/84ce825d-06be-448f-9582-970afd8afc97" />
+<img width="1057" height="637" alt="image" src="https://github.com/user-attachments/assets/7af81f08-2b34-44ce-b9d7-1e321197483e" />
 
-![Screenshot 2025-03-11 134617](https://github.com/user-attachments/assets/125ee548-30b1-4c88-932f-adf07984522f)
-
-![Screenshot 2025-03-11 134642](https://github.com/user-attachments/assets/0adfbb58-4cad-408a-9300-f4808b53cac4)
 
 
 7. Click on Ctrl+S, automatically C program will be generated
 
-![Screenshot 2025-03-11 134709](https://github.com/user-attachments/assets/70b83b79-1569-4f14-99d5-e2adbb4e692d)
+<img width="1051" height="637" alt="image" src="https://github.com/user-attachments/assets/9e7e439c-ee2f-4f7d-8b44-e5fcad8720f0" />
+
 
 8. Edit the program and as per required 
 
-![image](https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png)
+<img width="1060" height="590" alt="image" src="https://github.com/user-attachments/assets/33fe8da5-4e87-4642-b85b-4cd923055636" />
+
 
 
 9. Use project and build all 
 
-![image](https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png)
+<img width="1067" height="601" alt="image" src="https://github.com/user-attachments/assets/a3d4d795-69a8-40de-a4c8-9703f944451e" />
 
 10. Once the project is bulild 
 
-![image](https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png)
+<img width="1027" height="462" alt="image" src="https://github.com/user-attachments/assets/3df34ded-1f59-4d11-9428-57d60ff05cb2" />
+
 
 11. connect the iot board to power supply and usb
 
 12. After connecting open the STM cube programmer
 
-![Screenshot 2025-03-11 135208](https://github.com/user-attachments/assets/bb67ab6b-81a5-450c-b170-4276a9b87ef2)
+<img width="1067" height="622" alt="image" src="https://github.com/user-attachments/assets/2d7a45bd-e59c-4f5e-90eb-3ef785210ac9" />
+
 
 
 13. Connect the STM board through the COM port, then upload the corresponding project ELF file/Hex file or Bin file in Erasing & Programming Window,while ensuring the board is in flash mode, and click on 'Start Program'.
-    ![image](https://github.com/user-attachments/assets/9383531d-8204-4697-9321-55afb6abee2e)
+   <img width="1021" height="592" alt="image" src="https://github.com/user-attachments/assets/8ce7b78d-a32c-4d75-a270-2aad241c8647" />
 
 14.  After the file download is complete, switch your board to run mode and press the reset button to see the output
 
@@ -103,9 +108,111 @@ IR technology is used in a wide range of wireless applications which includes re
 
 ```
 // Your STM 32 CUBE Program code here
+#include "main.h"
+#include "stdbool.h"
+
+bool IRSENSOR;
+
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+
+int main(void)
+{
+  HAL_Init();
+
+  SystemClock_Config();
+
+  MX_GPIO_Init();
+
+  while (1)
+  {
+	  IRSENSOR = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4);
+	  if(IRSENSOR == 0)
+	  {
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+		  HAL_Delay(2000);
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+		  HAL_Delay(2000);
+	  }
+	  else
+	  {
+		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+		  HAL_Delay(2000);
+	  }
+  }
+}
+
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE2);
+
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
+  RCC_OscInitStruct.MSIState = RCC_MSI_ON;
+  RCC_OscInitStruct.MSICalibrationValue = RCC_MSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_6;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK3|RCC_CLOCKTYPE_HCLK
+                              |RCC_CLOCKTYPE_SYSCLK|RCC_CLOCKTYPE_PCLK1
+                              |RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_MSI;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.AHBCLK3Divider = RCC_SYSCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+
+  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  GPIO_InitStruct.Pin = GPIO_PIN_0;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
+
+void Error_Handler(void)
+{
+  __disable_irq();
+  while (1)
+  {
+  }
+}
+
+#ifdef  USE_FULL_ASSERT
+void assert_failed(uint8_t *file, uint32_t line)
+{
+}
+#endif// Your STM 32 CUBE Program code here
 ```
 
 ## OUTPUT
+<img width="901" height="965" alt="image" src="https://github.com/user-attachments/assets/a461e998-c47e-434c-bfcf-81a8651351a8" />
+<img width="907" height="976" alt="image" src="https://github.com/user-attachments/assets/a4a555ed-b15b-4dae-baf3-f171d2deb6c8" />
 
 ## Result
 
